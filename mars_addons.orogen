@@ -7,6 +7,9 @@ using_task_library "mars"
 
 import_types_from "base"
 
+using_library "mars_interfaces"
+using_library "data_broker"
+
 task_context "PathDrawer" do
     subclasses "mars::Plugin"
 
